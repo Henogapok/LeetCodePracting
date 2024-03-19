@@ -107,6 +107,8 @@ public class Main {
         Map<Integer, Integer> dp = new HashMap<>();
         for(int item : arr){
             dp.put(item, dp.getOrDefault(item, 0)+1);
+
         }
+        return 0;
     }
 }
